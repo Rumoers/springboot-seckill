@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92b0aa06-e6e7-4fc3-acbf-5a3591a5f1cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/access/AccessInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/access/AccessInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/common/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/common/redis/AbstractPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/common/redis/AbstractPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/config/mq/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/config/mq/RabbitMqConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/config/redis/JedisConfigution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/config/redis/JedisConfigution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/config/web/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/config/web/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/MiaoshaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/MiaoshaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/domain/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/domain/MiaoshaGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/domain/MiaoshaGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/domain/MiaoshaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/domain/MiaoshaUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/exception/GlobalException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/service/MiaoshaUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/xzh/seckill/service/MiaoshaUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hello.html" beforeDir="false" />
-    </list>
+    <list default="true" id="92b0aa06-e6e7-4fc3-acbf-5a3591a5f1cd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/top/xzh/seckill/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="322">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -508,7 +486,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -854,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/xzh/seckill/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="322">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
