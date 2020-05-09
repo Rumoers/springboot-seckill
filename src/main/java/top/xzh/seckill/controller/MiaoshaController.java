@@ -45,7 +45,7 @@ public class MiaoshaController implements InitializingBean {
 
     private final OrderService orderService;
 
-    private static final Map<Long, Boolean> LOCAL_GOODS_MAP = new ConcurrentHashMap <>();
+    private static final Map<Long, Boolean> LOCAL_GOODS_MAP = new ConcurrentHashMap <Long, Boolean>();
     private Result<Object> error;
 
     @Autowired

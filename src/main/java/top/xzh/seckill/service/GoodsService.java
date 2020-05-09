@@ -8,7 +8,9 @@ import top.xzh.seckill.vo.GoodsVo;
 
 import java.util.List;
 
-
+/**
+ *
+ */
 @Service
 public class GoodsService {
 

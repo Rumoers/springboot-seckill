@@ -26,14 +26,15 @@ public class WebMvcConfig extends WebMvcConfigurationSupport{
     }
 
     @Override
+    protected void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
+        configurer.favorPathExtension(false);
+    }
+
+    @Override
     protected void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
         argumentResolvers.add(userArgumentResolver);
     }
 
-    @Override
-    protected void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
-        configurer.favorPathExtension(false);
-    }
 
     @Override
     protected void addResourceHandlers(ResourceHandlerRegistry registry) {

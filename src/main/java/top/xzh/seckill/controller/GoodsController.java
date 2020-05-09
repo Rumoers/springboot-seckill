@@ -50,6 +50,7 @@ public class GoodsController {
 
         // 1. 取页面缓存
         String html = redisService.get(GoodsKey.getGoodsList, "", String.class);
+
         // 缓存有数据直接返回
         if (StringUtils.isNotEmpty(html)) {
             return html;
@@ -76,7 +77,7 @@ public class GoodsController {
     public @ResponseBody
     Result<GoodsDetailVo> getDetail(MiaoshaUser user, @PathVariable Long goodsId) {
 
-        // 手动渲染
+
         GoodsVo goodsVo = goodsService.getGoodsVoByGoodsId(goodsId);
 
         long startTme = goodsVo.getStartDate().getTime();

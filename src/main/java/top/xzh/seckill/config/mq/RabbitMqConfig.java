@@ -85,28 +85,6 @@ public class RabbitMqConfig {
     }
 
 
-    /**
-     * headers模式, exchange
-     */
-    @Bean
-    public HeadersExchange headersExchange() {
-        return new HeadersExchange(Constant.HEADERS_EXCHANGE);
-    }
 
-    @Bean Queue headersQueue() {
-        return new Queue(Constant.HEADERS_QUEUE, true);
-    }
-
-    @Bean
-    public Binding headersBinding() {
-
-        HashMap <String, Object> hashMap = new HashMap<String, Object>(2){{
-            put("header1", "value1");
-            put("header2", "value2");
-        }};
-
-        // 只有当满足key和value的时候, 才会向队列发送
-        return BindingBuilder.bind(headersQueue()).to(headersExchange()).whereAll(hashMap).match();
-    }
 
 }

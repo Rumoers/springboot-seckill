@@ -18,7 +18,9 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Objects;
 
-
+/**
+ *
+ */
 @Service
 public class MiaoshaUserService {
 
@@ -91,7 +93,7 @@ public class MiaoshaUserService {
         return miaoshaUser;
     }
 
-
+    //需要参数Response 用于响应
     public boolean login(HttpServletResponse response, LoginVo loginVo) {
 
         if (null == loginVo) {

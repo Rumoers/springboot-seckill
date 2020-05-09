@@ -3,7 +3,9 @@ package top.xzh.seckill.domain;
 import lombok.Data;
 
 import java.util.Date;
-
+/**
+ *
+ */
 @Data
 public class MiaoshaGoods {
 	private Long id;

@@ -8,7 +8,9 @@ import top.xzh.seckill.domain.MiaoshaUser;
 import top.xzh.seckill.rabbitmq.MqSender;
 import top.xzh.seckill.result.Result;
 
-
+/**
+ *
+ */
 @RestController
 @RequestMapping("user")
 public class UserController {

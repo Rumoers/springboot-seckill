@@ -31,7 +31,7 @@ public class OrderController {
     @GetMapping("detail")
     public @ResponseBody
     Result detail(MiaoshaUser user, Long orderId) {
-
+        //
         if (null == user) {
             return Result.error(CodeMsg.SESSION_ERROR);
         }

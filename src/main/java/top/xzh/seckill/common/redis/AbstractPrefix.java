@@ -26,7 +26,10 @@ public abstract class AbstractPrefix implements KeyPrefix {
     public int getExpireSeconds() {
         return this.expireSeconds;//定义为0則永不过期
     }
-
+    @Override
+    public String getRealKey(String key) {
+        return getPrefix() + key;
+    }
     /**
      * 获取key前缀
      *
@@ -38,8 +41,5 @@ public abstract class AbstractPrefix implements KeyPrefix {
         return simpleName + ":" + this.prefix;
     }
 
-    @Override
-    public String getRealKey(String key) {
-        return getPrefix() + key;
-    }
+
 }

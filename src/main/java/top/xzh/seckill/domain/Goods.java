@@ -2,6 +2,9 @@ package top.xzh.seckill.domain;
 
 import lombok.Data;
 
+/**
+ *
+ */
 @Data
 public class Goods {
 	private Long id;

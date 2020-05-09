@@ -5,7 +5,9 @@ import org.springframework.stereotype.Service;
 import top.xzh.seckill.domain.User;
 import top.xzh.seckill.mapper.UserMapper;
 
-
+/**
+ *
+ */
 @Service
 public class UserService {
 

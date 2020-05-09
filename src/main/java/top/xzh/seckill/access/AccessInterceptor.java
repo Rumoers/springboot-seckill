@@ -95,14 +95,15 @@ public class AccessInterceptor extends HandlerInterceptorAdapter {
         outputStream.close();
     }
 
-    @Override
-    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-        super.postHandle(request, response, handler, modelAndView);
-    }
+
 
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         super.afterCompletion(request, response, handler, ex);
+    }
+    @Override
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
+        super.postHandle(request, response, handler, modelAndView);
     }
     //从cookie中获取token，根据token获取当前登录user
     private MiaoshaUser getUser(HttpServletRequest request, HttpServletResponse response) {
